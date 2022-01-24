@@ -44,8 +44,9 @@ async def cbstart(_, query: CallbackQuery):
                     ),
                 ],
                 [
+            ]
                     InlineKeyboardButton(
-                        "🌐 البشمبرمج", url="https://t.me/DeshaXBlacck"
+                        "VODIKA " ، url = "https://t.me/vod_ik_ax"
                     )
                 ],
             ]
