@@ -83,7 +83,7 @@ async def start_(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "🌐 مبرمج السورس", url="https://t.me/DeshaXBlacck"
+                        "VODIKA", url="https://t.me/vod_ik_ax "
                     )
                 ],
             ]
@@ -105,7 +105,7 @@ async def alive(client: Client, message: Message):
             [
                 InlineKeyboardButton("✨ مبرمج السورس يبني..😺♥", url=f"https://t.me/DeshaXBlacck"),
                 InlineKeyboardButton(
-                    "📣 قناة السورس", url=f"https://t.me/music_Desha1"
+                    "📣 قناة السورس" ، url = f "https://t.me/SOURCE_JACK" 
                 ),
             ]
         ]
@@ -125,7 +125,7 @@ async def ping_pong(client: Client, message: Message):
     start = time()
     m_reply = await message.reply_text("pinging...")
     delta_ping = time() - start
-    await m_reply.edit_text("🏓 `البينج مظبوط يديشاا!!`\n" f"⚡️ `{delta_ping * 1000:.3f} ms`")
+    await m_reply.edit_text("🏓 `البينج مظبوط يقلبي!!`\n" f"⚡️ `{delta_ping * 1000:.3f} ms`")
 
 
 @Client.on_message(command(["uptime", f"uptime@{BOT_USERNAME}"]) & ~filters.edited)
